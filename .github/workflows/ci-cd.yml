@@ -1,7 +1,6 @@
 name: CI/CD Pipeline
 
-on:
-  on:
+"on":
   push:
     branches:
       - main

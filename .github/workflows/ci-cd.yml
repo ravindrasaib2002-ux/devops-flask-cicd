@@ -50,5 +50,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/devops-flask-cicd:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/devops-flask-cicd:${{ github.sha }}
+            ${{ devi12prasad}}/devops-flask-cicd:latest
+            ${{ dckr_pat_jIyulVCBZzMK9Gqp6p4vvSnlCQo }}/devops-flask-cicd:${{ github.sha }}
